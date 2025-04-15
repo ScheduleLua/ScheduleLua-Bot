@@ -1,5 +1,11 @@
 # ScheduleLua Discord Bot
 
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-Online-7289DA?logo=discord&logoColor=white)
+![Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-1.0-brightgreen)
+
 A Discord bot for the ScheduleLua community. This bot provides information, moderates discussions, and helps users find resources related to the ScheduleLua Lua modding framework for Schedule 1.
 
 ## Features
@@ -8,15 +14,14 @@ A Discord bot for the ScheduleLua community. This bot provides information, mode
 - **Permission System**: Restricts certain commands to only be usable by the bot owner and moderators
 - **Auto-Response System**: Monitors messages for specific keywords and responds with helpful information
 - **Rules Management**: Generate and send professional-looking embeds for server rules
-- **AI Chatbot**: Gemini-powered AI assistant that understands ScheduleLua documentation
-- **Document Embeddings**: Uses vector embeddings to provide context-aware responses
+- **AI Chatbot**: Gemini-powered AI assistant that understands ScheduleLua documentation to some extent
 - **Modular Structure**: Organized into cogs for maintainability and scalability
 
 ## Setup Instructions
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/schedulelua-bot.git
+   git clone https://github.com/ifBars/ScheduleLua-Bot.git
    cd schedulelua-bot
    ```
 
@@ -119,7 +124,7 @@ If you'd like to contribute to this bot, please fork the repository, make your c
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE)
 
 ## Contact
 
