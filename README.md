@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-Online-7289DA?logo=discord&logoColor=white)
+[![Discord](https://img.shields.io/badge/Discord-Online-7289DA?logo=discord&logoColor=white)](https://discord.gg/Ab8snpEFDn)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Version](https://img.shields.io/badge/version-1.0-brightgreen)
 
