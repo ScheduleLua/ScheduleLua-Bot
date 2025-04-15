@@ -2,6 +2,8 @@
 .env
 
 bot.log
+ssh.txt
+update.txt
 
 # Virtual environment directories (if any)
 .venv/
