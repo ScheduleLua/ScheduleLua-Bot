@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Be Respectful",
+        "description": "Treat all members with respect. No harassment, hate speech, or excessive profanity."
+    },
+    {
+        "title": "Try To Stay On Topic",
+        "description": "Do your best to keep discussions in appropriate channels for the topic. If you find your self going off-topic of the channel, recommend you and the other people involved take the conversation to the appropriate channel. This is to avoid cluttering channels to ensure people can easily find relevant information."
+    },
+    {
+        "title": "No Spamming",
+        "description": "Avoid excessive posting of the same content or message."
+    },
+    {
+        "title": "Use Common Sense",
+        "description": "Don't post links to malware, don't post links to piracy, don't engange in arguements with others, etc."
+    },
+    {
+        "title": "No Discussion Of Piracy",
+        "description": "Absolutely no discussion of piracy at all times. Any form of discussion of piracy is a bannable offense. We do not support piracy in any form in this server."
+    },
+    {
+        "title": "File Uploads",
+        "description": "Avoid posting any malicous files. We do allow users to upload files, granted that they are safe, and relevant to the discussion/channel. We will analyze suspicous files, and remove them if necesarry. Anyone found to be posting, spreading, or sharing malicous files will be banned without hesitation."
+    },
+    {
+        "title": "NSFW Topics",
+        "description": "Keep discussions safe for relatively work. This is mainly relevant to sexual discussions, any type of sexual discussion is explicitly prohibited. We use the word relatively, because while sexual discussion is not allowed, the game is about making drugs, so general discussion on drugs is allowed, granted that it doesn't involve illegal acts/discussion."
+    },
+    {
+        "title": "Advertisements / Promotions",
+        "description": "Do not promote any other Discord servers, websites, etc. Inviting members to other servers, posting links promoting websites, etc, can lead to a ban. The only exception to this is promoting mods made for Schedule 1 in <#1361255303508791347>."
+    },
+    {
+        "title": "Executable Files",
+        "description": "Under no circumstances should an executable `.exe` file be uploaded/sent in the server. This is a bannable offense."
+    },
+    {
+        "title": "Staff Final Say",
+        "description": "Staff always have final say. If a Moderator, Admin, or Project Lead, believes you are breaking the rules, they have final say as to the consequence."
+    }
+]

@@ -1,0 +1,973 @@
+2025-04-14 02:28:58,353 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 02:28:58,354 - discord.client - INFO - logging in using static token
+2025-04-14 02:28:58,806 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 02:28:58,814 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 02:28:58,818 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 02:28:58,822 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 02:28:59,092 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 02:28:59,498 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6bcdf61a45cee35be374bc13df283577).
+2025-04-14 02:29:01,512 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 02:29:01,513 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 02:31:53,002 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 02:31:53,003 - discord.client - INFO - logging in using static token
+2025-04-14 02:31:53,581 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 02:31:53,584 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 02:31:53,586 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 02:31:53,588 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 02:31:53,764 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 02:31:54,084 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0e2aa81579ca2b0adc7b86d2bb45b107).
+2025-04-14 02:31:56,102 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 02:31:56,102 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 03:00:37,131 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 0e2aa81579ca2b0adc7b86d2bb45b107.
+2025-04-14 03:53:46,762 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 03:53:46,763 - discord.client - INFO - logging in using static token
+2025-04-14 03:53:47,214 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 03:53:47,223 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 03:53:47,226 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 03:53:47,231 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 03:53:47,432 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 03:53:47,731 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3309856f7258e41355e8edfa50ba91da).
+2025-04-14 03:53:49,738 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 03:53:49,739 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:18:40,425 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:18:40,426 - discord.client - INFO - logging in using static token
+2025-04-14 04:18:41,337 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:18:41,769 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:18:43,297 - schedulelua_bot - ERROR - Failed to load cog gemini.py: Extension 'cogs.gemini' raised an error: AttributeError: module 'google.genai' has no attribute 'configure'
+2025-04-14 04:18:43,298 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:18:43,300 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:18:43,444 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:18:43,749 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5f06fd28c3aa451325b7fcfb4181f5e2).
+2025-04-14 04:18:45,779 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:18:45,779 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:20:40,956 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:20:40,957 - discord.client - INFO - logging in using static token
+2025-04-14 04:20:41,385 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:20:41,710 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:20:43,090 - schedulelua_bot - ERROR - Failed to load cog gemini.py: Extension 'cogs.gemini' raised an error: AttributeError: 'Models' object has no attribute 'get_model'
+2025-04-14 04:20:43,092 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:20:43,093 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:20:43,247 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:20:43,611 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c480b2a8c6186459f2bd48fd79b88ced).
+2025-04-14 04:20:45,613 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:20:45,613 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:27:28,231 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:27:28,232 - discord.client - INFO - logging in using static token
+2025-04-14 04:27:28,678 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:27:28,999 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:27:30,290 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:27:30,290 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:27:30,293 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:27:30,295 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:27:30,571 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:27:30,933 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ea230dafb880476a533db813ea4725f6).
+2025-04-14 04:27:32,951 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:27:32,951 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:27:57,395 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:27:59,102 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:28:00,810 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:28:02,097 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:28:03,400 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:28:04,685 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:28:05,970 - schedulelua_bot - ERROR - Error generating embedding: 'Client' object has no attribute 'embeddings'
+2025-04-14 04:30:05,798 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:30:05,800 - discord.client - INFO - logging in using static token
+2025-04-14 04:30:06,415 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:30:06,754 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:30:08,182 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:30:08,183 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:30:08,184 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:30:08,185 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:30:08,359 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:30:08,679 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1c8791e479779766e961280f7e23ef13).
+2025-04-14 04:30:10,703 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:30:10,704 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:30:15,944 - schedulelua_bot - ERROR - Error generating embedding: Models.embed_content() got an unexpected keyword argument 'task_type'
+2025-04-14 04:30:17,108 - schedulelua_bot - ERROR - Error generating embedding: Models.embed_content() got an unexpected keyword argument 'task_type'
+2025-04-14 04:30:18,283 - schedulelua_bot - ERROR - Error generating embedding: Models.embed_content() got an unexpected keyword argument 'task_type'
+2025-04-14 04:30:19,444 - schedulelua_bot - ERROR - Error generating embedding: Models.embed_content() got an unexpected keyword argument 'task_type'
+2025-04-14 04:30:20,625 - schedulelua_bot - ERROR - Error generating embedding: Models.embed_content() got an unexpected keyword argument 'task_type'
+2025-04-14 04:31:10,681 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:31:10,682 - discord.client - INFO - logging in using static token
+2025-04-14 04:31:11,150 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:31:11,488 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:31:12,978 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:31:12,979 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:31:12,981 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:31:12,982 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:31:13,238 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:31:13,614 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 94e0c11806af0fd21ac7d6b5e09ba8e2).
+2025-04-14 04:31:15,614 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:31:15,615 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:31:17,110 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:31:17,132 - schedulelua_bot - ERROR - Error generating embedding: 'EmbedContentResponse' object has no attribute 'embedding'
+2025-04-14 04:31:18,765 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:31:18,772 - schedulelua_bot - ERROR - Error generating embedding: 'EmbedContentResponse' object has no attribute 'embedding'
+2025-04-14 04:31:20,429 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:31:22,228 - schedulelua_bot - ERROR - Error generating embedding: 'EmbedContentResponse' object has no attribute 'embedding'
+2025-04-14 04:32:42,625 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:32:42,626 - discord.client - INFO - logging in using static token
+2025-04-14 04:32:44,688 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:32:45,011 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:32:46,413 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:32:46,413 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:32:46,415 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:32:46,416 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:32:46,596 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:32:46,909 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4423225482029d1df50f9ff5d7e3f755).
+2025-04-14 04:32:48,902 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:32:48,903 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:32:50,039 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:51,695 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:53,360 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:55,022 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:56,684 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:58,390 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:32:59,655 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:32:59,656 - schedulelua_bot - ERROR - Error generating embedding: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-04-14 04:32:59,657 - schedulelua_bot - ERROR - Error scraping guide/lifecycle-hooks.html: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 1 and the array at index 1 has size 768
+2025-04-14 04:32:59,891 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:32:59,891 - schedulelua_bot - ERROR - Error generating embedding: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-04-14 04:32:59,892 - schedulelua_bot - ERROR - Error scraping guide/best-practices.html: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 1 and the array at index 1 has size 768
+2025-04-14 04:33:00,135 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:33:00,135 - schedulelua_bot - ERROR - Error generating embedding: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-04-14 04:33:00,136 - schedulelua_bot - ERROR - Error scraping guide/limitations.html: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 1 and the array at index 1 has size 768
+2025-04-14 04:33:00,395 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:33:00,398 - schedulelua_bot - ERROR - Error generating embedding: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-04-14 04:33:00,398 - schedulelua_bot - ERROR - Error scraping guide/contributing.html: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 1 and the array at index 1 has size 768
+2025-04-14 04:33:00,571 - schedulelua_bot - ERROR - Error scraping guide/reporting-issues.html: Error fetching URL: 503 Server Error: Service Unavailable for url: https://ifbars.github.io/ScheduleLua-Docs/guide/reporting-issues.html
+2025-04-14 04:34:03,108 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:34:03,109 - discord.client - INFO - logging in using static token
+2025-04-14 04:34:03,683 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:34:04,025 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:34:05,489 - schedulelua_bot - ERROR - Error loading embeddings: Object arrays cannot be loaded when allow_pickle=False
+2025-04-14 04:34:05,489 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:34:05,490 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:34:05,491 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:34:05,493 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:34:05,676 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:34:05,977 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 66f1ac94d45f80d40ac2746520f43802).
+2025-04-14 04:34:08,000 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:34:08,000 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:34:11,998 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:34:12,012 - schedulelua_bot - ERROR - Error processing guide/: index 0 is out of bounds for axis 0 with size 0
+2025-04-14 04:34:16,219 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:34:16,226 - schedulelua_bot - ERROR - Error processing guide/installation.html: index 1 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:12,671 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:35:12,672 - discord.client - INFO - logging in using static token
+2025-04-14 04:35:13,165 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:35:13,509 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:35:14,999 - schedulelua_bot - ERROR - Error loading embeddings: Object arrays cannot be loaded when allow_pickle=False
+2025-04-14 04:35:15,000 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:35:15,002 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:35:15,004 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:35:15,006 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:35:15,170 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:35:15,459 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cc538bbb016a294a9c213bc5aec54437).
+2025-04-14 04:35:17,480 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:35:17,481 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:35:19,202 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:19,220 - schedulelua_bot - ERROR - Error scraping guide/: index 0 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:19,828 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:19,835 - schedulelua_bot - ERROR - Error scraping guide/installation.html: index 1 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:20,438 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:20,445 - schedulelua_bot - ERROR - Error scraping guide/getting-started.html: index 2 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:21,057 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:21,064 - schedulelua_bot - ERROR - Error scraping guide/development-status.html: index 3 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:21,652 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:21,657 - schedulelua_bot - ERROR - Error scraping api/: index 4 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:22,256 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:35:22,263 - schedulelua_bot - ERROR - Error scraping guide/script-structure.html: index 5 is out of bounds for axis 0 with size 0
+2025-04-14 04:35:22,397 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:35:22,398 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:35:24,459 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:35:24,460 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:35:26,415 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\tree.py:1149> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\ghost\Desktop\Coding\Python\ScheduleLua-Bot\cogs\gemini.py", line 98, in generate_embeddings
+    result = self.client.models.embed_content(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\genai\models.py", line 4499, in embed_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\genai\_api_client.py", line 640, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\genai\_api_client.py", line 569, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\genai\errors.py", line 106, in raise_for_response
+    raise ClientError(status_code, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 869, in run
+    asyncio.run(runner())
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\Desktop\Coding\Python\ScheduleLua-Bot\cogs\gemini.py", line 345, in scrape_documentation
+    new_embedding = self.generate_embeddings([text_content[:5000]])[0]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghost\Desktop\Coding\Python\ScheduleLua-Bot\cogs\gemini.py", line 111, in generate_embeddings
+    time.sleep(wait_time)
+  File "C:\Users\ghost\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+2025-04-14 04:35:37,973 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:35:37,974 - discord.client - INFO - logging in using static token
+2025-04-14 04:35:38,452 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:35:38,784 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:35:40,206 - schedulelua_bot - ERROR - Error loading embeddings: Object arrays cannot be loaded when allow_pickle=False
+2025-04-14 04:35:40,206 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:35:40,207 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:35:40,208 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:35:40,210 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:36:00,493 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:36:00,494 - discord.client - INFO - logging in using static token
+2025-04-14 04:36:00,907 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:36:01,222 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:36:02,504 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:36:02,625 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:36:02,626 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:36:04,684 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:36:04,685 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:36:05,144 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002DFDAC2F950>
+2025-04-14 04:36:05,146 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000002DFDAC78230>, 28874.453)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000002DFD77A6450>
+2025-04-14 04:36:10,493 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:36:10,494 - discord.client - INFO - logging in using static token
+2025-04-14 04:36:11,113 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:36:11,437 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:36:12,816 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:36:12,816 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:36:12,818 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:36:12,820 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:36:29,999 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:36:30,000 - discord.client - INFO - logging in using static token
+2025-04-14 04:36:30,609 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:36:30,925 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:36:32,213 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:36:32,213 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:36:32,215 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:36:32,216 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:37:03,543 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:37:03,544 - discord.client - INFO - logging in using static token
+2025-04-14 04:37:03,986 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:37:04,314 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:37:05,642 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:37:05,642 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:37:05,644 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:37:05,646 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:37:25,892 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:37:25,893 - discord.client - INFO - logging in using static token
+2025-04-14 04:37:26,586 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:37:26,906 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:37:28,211 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:37:28,848 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:29,505 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:30,138 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:30,701 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:31,312 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:31,875 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:31,989 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:31,990 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:37:34,070 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:34,071 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:37:38,136 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:38,137 - schedulelua_bot - WARNING - Rate limit hit, retrying in 8 seconds...
+2025-04-14 04:37:46,741 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:37:46,817 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:46,818 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:37:48,884 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:48,885 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:37:52,946 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:37:52,947 - schedulelua_bot - WARNING - Rate limit hit, retrying in 8 seconds...
+2025-04-14 04:38:01,054 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:38:01,055 - schedulelua_bot - WARNING - Rate limit hit, retrying in 16 seconds...
+2025-04-14 04:38:07,773 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002206B5FF740>
+2025-04-14 04:39:43,297 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:39:43,298 - discord.client - INFO - logging in using static token
+2025-04-14 04:39:43,869 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:39:44,203 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:39:45,526 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:39:46,170 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:46,764 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:47,338 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:47,899 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:48,484 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:49,056 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:39:49,156 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:39:49,157 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:39:51,224 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:39:51,224 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:39:54,857 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000154CE8AF6E0>
+2025-04-14 04:39:54,858 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x00000154CE8F8230>, 29097.406)])']
+connector: <aiohttp.connector.TCPConnector object at 0x00000154CD3DA7B0>
+2025-04-14 04:40:01,999 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:40:02,000 - discord.client - INFO - logging in using static token
+2025-04-14 04:40:02,558 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:40:02,902 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:40:04,266 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:40:04,914 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:05,525 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:05,596 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:05,596 - schedulelua_bot - WARNING - Rate limit hit, retrying in 2 seconds...
+2025-04-14 04:40:07,661 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:07,663 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:40:09,740 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002714C1DF6B0>
+2025-04-14 04:40:09,741 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000002714C228230>, 29116.109)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000002714C1DF530>
+2025-04-14 04:40:26,699 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:40:26,700 - discord.client - INFO - logging in using static token
+2025-04-14 04:40:27,141 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:40:27,461 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:40:28,747 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:40:29,337 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:29,925 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:30,463 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:31,011 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:31,561 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:32,120 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:32,188 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:32,189 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:40:36,249 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:36,249 - schedulelua_bot - WARNING - Rate limit hit, retrying in 16 seconds...
+2025-04-14 04:40:52,858 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:40:52,938 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:52,939 - schedulelua_bot - WARNING - Rate limit hit, retrying in 4 seconds...
+2025-04-14 04:40:56,999 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:40:57,000 - schedulelua_bot - WARNING - Rate limit hit, retrying in 16 seconds...
+2025-04-14 04:41:13,108 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:41:13,109 - schedulelua_bot - WARNING - Rate limit hit, retrying in 64 seconds...
+2025-04-14 04:41:19,579 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A9FF19F7D0>
+2025-04-14 04:42:26,259 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:42:26,261 - discord.client - INFO - logging in using static token
+2025-04-14 04:42:26,988 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:42:27,299 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:42:28,575 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:42:29,200 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:29,868 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:30,439 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:31,023 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:31,591 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:32,166 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:32,733 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:42:32,812 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:42:32,813 - schedulelua_bot - WARNING - Rate limit hit, retrying in 3 seconds...
+2025-04-14 04:42:35,876 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:42:35,878 - schedulelua_bot - WARNING - Rate limit hit, retrying in 9 seconds...
+2025-04-14 04:42:44,994 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:42:44,995 - schedulelua_bot - WARNING - Rate limit hit, retrying in 27 seconds...
+2025-04-14 04:43:12,110 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:43:12,111 - schedulelua_bot - ERROR - Error generating embedding: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2025-04-14 04:43:12,274 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:43:12,275 - schedulelua_bot - WARNING - Rate limit hit, retrying in 3 seconds...
+2025-04-14 04:43:15,345 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-exp-03-07:batchEmbedContents "HTTP/1.1 429 Too Many Requests"
+2025-04-14 04:43:15,346 - schedulelua_bot - WARNING - Rate limit hit, retrying in 9 seconds...
+2025-04-14 04:43:19,670 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D63B6FF740>
+2025-04-14 04:43:39,558 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:43:39,559 - discord.client - INFO - logging in using static token
+2025-04-14 04:43:40,439 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:43:40,745 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:43:42,013 - schedulelua_bot - WARNING - Document count doesn't match embedding count. Regenerating embeddings.
+2025-04-14 04:43:42,231 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:42,411 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:42,606 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:42,788 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:42,963 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,143 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,320 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,504 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,685 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,861 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:43:43,864 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:43:43,864 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:43:43,865 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:43:43,867 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:43:44,081 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:43:44,407 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 189313a1300ce1a3fbed65c433f5443b).
+2025-04-14 04:43:46,422 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:43:46,423 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:44:15,525 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+2025-04-14 04:44:15,526 - schedulelua_bot - ERROR - Error in chat command: unsupported operand type(s) for *: 'ContentEmbedding' and 'ContentEmbedding'
+2025-04-14 04:44:44,719 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:44:44,720 - discord.client - INFO - logging in using static token
+2025-04-14 04:44:45,296 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:44:45,611 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:44:46,916 - schedulelua_bot - ERROR - Error loading embeddings: Object arrays cannot be loaded when allow_pickle=False
+2025-04-14 04:44:46,918 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:44:46,919 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:44:46,920 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:44:46,922 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:44:47,106 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:44:47,415 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 66a8cf087cd120bc4bad4e5161a6dd7e).
+2025-04-14 04:44:49,443 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:44:49,443 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:44:55,571 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 04:44:58,724 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 04:44:58,725 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 04:55:26,512 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:55:26,514 - discord.client - INFO - logging in using static token
+2025-04-14 04:55:27,032 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:55:27,350 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:55:28,649 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:55:28,650 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:55:28,652 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:55:28,654 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:55:28,921 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:55:29,269 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d5025cbce89cb72ca6daa470a2540430).
+2025-04-14 04:55:31,280 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:55:31,280 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:55:38,235 - schedulelua_bot - INFO - Successfully saved Installation Guide | ScheduleLua Documentation (Beta) to data/docs\installation_guide___schedulelua_documentation__beta_.md
+2025-04-14 04:55:43,397 - schedulelua_bot - INFO - Successfully saved Getting Started with ScheduleLua (Beta) | ScheduleLua Documentation (Beta) to data/docs\getting_started_with_schedulelua__beta____schedulelua_documentation__beta_.md
+2025-04-14 04:55:48,590 - schedulelua_bot - INFO - Successfully saved Development Status | ScheduleLua Documentation (Beta) to data/docs\development_status___schedulelua_documentation__beta_.md
+2025-04-14 04:55:53,756 - schedulelua_bot - INFO - Successfully saved Script Structure | ScheduleLua Documentation (Beta) to data/docs\script_structure___schedulelua_documentation__beta_.md
+2025-04-14 04:55:58,947 - schedulelua_bot - INFO - Successfully saved Script Lifecycle Hooks | ScheduleLua Documentation (Beta) to data/docs\script_lifecycle_hooks___schedulelua_documentation__beta_.md
+2025-04-14 04:56:04,690 - schedulelua_bot - INFO - Successfully saved ScheduleLua Best Practices | ScheduleLua Documentation (Beta) to data/docs\schedulelua_best_practices___schedulelua_documentation__beta_.md
+2025-04-14 04:56:09,961 - schedulelua_bot - INFO - Successfully saved ScheduleLua Limitations | ScheduleLua Documentation (Beta) to data/docs\schedulelua_limitations___schedulelua_documentation__beta_.md
+2025-04-14 04:56:15,264 - schedulelua_bot - INFO - Successfully saved Reporting Issues with ScheduleLua | ScheduleLua Documentation (Beta) to data/docs\reporting_issues_with_schedulelua___schedulelua_documentation__beta_.md
+2025-04-14 04:56:31,685 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 04:56:39,647 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 04:56:39,649 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 04:57:51,258 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:57:51,259 - discord.client - INFO - logging in using static token
+2025-04-14 04:57:51,779 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:57:52,120 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:57:53,493 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:57:53,493 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:57:53,496 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:57:53,497 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:57:53,674 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:57:54,119 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 219e828a2b793d17f141be750b0e89f0).
+2025-04-14 04:57:56,145 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:57:56,146 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 04:57:57,384 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 04:57:59,231 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 04:57:59,233 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 04:59:34,022 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 04:59:34,023 - discord.client - INFO - logging in using static token
+2025-04-14 04:59:34,592 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 04:59:34,914 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 04:59:36,321 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 04:59:36,321 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 04:59:36,323 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 04:59:36,324 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 04:59:36,514 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 04:59:36,870 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e61fef041a6b3e6b8a9604e350d1bb0a).
+2025-04-14 04:59:38,220 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 04:59:40,439 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 04:59:40,441 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 04:59:40,441 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 04:59:40,442 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 05:01:16,549 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 05:01:16,550 - discord.client - INFO - logging in using static token
+2025-04-14 05:01:17,608 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 05:01:17,941 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 05:01:19,474 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 05:01:19,474 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 05:01:19,476 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 05:01:19,477 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 05:01:19,686 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 05:01:19,992 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2dcdfa9882569b76a175b1aaf9d7cb08).
+2025-04-14 05:01:22,003 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 05:01:22,004 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 05:01:28,800 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 05:01:28,801 - discord.client - INFO - logging in using static token
+2025-04-14 05:01:29,359 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 05:01:29,688 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 05:01:31,076 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 05:01:31,076 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 05:01:31,078 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 05:01:31,080 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 05:01:49,727 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 05:01:49,728 - discord.client - INFO - logging in using static token
+2025-04-14 05:01:50,236 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 05:01:50,547 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 05:01:51,817 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 05:01:51,817 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 05:01:51,819 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 05:01:51,820 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 05:05:22,376 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 05:05:22,378 - discord.client - INFO - logging in using static token
+2025-04-14 05:05:22,980 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 05:05:23,293 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 05:05:24,565 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 05:05:24,566 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 05:05:24,567 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 05:05:24,569 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 05:05:24,863 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 05:05:25,201 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bc1a95fd43a811f0ca27e713527e553e).
+2025-04-14 05:05:27,211 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 05:05:27,211 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 05:05:31,659 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 05:05:33,324 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 05:05:33,326 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 05:05:44,976 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 05:05:45,126 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2025-04-14 05:05:45,127 - schedulelua_bot - ERROR - Error in chat command: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+2025-04-14 05:06:11,193 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 05:06:11,194 - discord.client - INFO - logging in using static token
+2025-04-14 05:06:11,674 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 05:06:12,003 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 05:06:13,388 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 05:06:13,388 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 05:06:13,390 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 05:06:13,391 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 05:06:13,653 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 05:06:14,051 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b90454474734da4304d3adb85887a8ed).
+2025-04-14 05:06:16,049 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 05:06:16,050 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 05:06:17,832 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 05:06:18,997 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 05:06:18,999 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 05:06:30,121 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 05:06:31,574 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 05:06:31,575 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 19:51:25,794 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 19:51:25,795 - discord.client - INFO - logging in using static token
+2025-04-14 19:51:26,303 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 19:51:26,684 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 19:51:28,740 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 19:51:28,740 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 19:51:28,744 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 19:51:28,751 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 19:51:28,928 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 19:51:30,575 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 325f103add7862f12d54eb4f426dfaae).
+2025-04-14 19:51:32,582 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 19:51:32,582 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 19:53:45,225 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 19:53:47,691 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 19:53:47,693 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 20:04:08,398 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:04:08,399 - discord.client - INFO - logging in using static token
+2025-04-14 20:04:08,857 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:04:09,197 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:04:10,551 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:04:10,551 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:04:10,554 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:04:10,555 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:04:10,727 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:04:11,056 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a9d7fa4c721fbb83e30183a46eff977f).
+2025-04-14 20:04:13,068 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:04:13,069 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:22:27,024 - schedulelua_bot - INFO - Rules sent to channel 1361254029388152855 by ifbars
+2025-04-14 20:24:58,887 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:24:58,888 - discord.client - INFO - logging in using static token
+2025-04-14 20:24:59,447 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:24:59,787 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:24:59,789 - schedulelua_bot - INFO - Loaded cog: framework_updates.py
+2025-04-14 20:25:01,122 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:25:01,122 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:25:01,124 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:25:01,132 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:25:01,289 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:25:01,750 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f4d053d5df70b9a345d4430c8a3e1ab3).
+2025-04-14 20:25:03,751 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:25:03,751 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:26:25,738 - schedulelua_bot - INFO - Framework update v0.1.0 announced by ifbars
+2025-04-14 20:32:07,866 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:32:07,867 - discord.client - INFO - logging in using static token
+2025-04-14 20:32:08,334 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:32:08,670 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:32:10,161 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:32:10,161 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:32:10,163 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:32:10,165 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:32:10,169 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:32:10,450 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:32:10,898 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 842f5ae07918b4ca0d8d4a3aee0712bc).
+2025-04-14 20:32:12,934 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:32:12,935 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:32:12,935 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:32:13,220 - schedulelua_bot.thunderstore - ERROR - Failed to fetch ScheduleLua updates: 404
+2025-04-14 20:34:26,283 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:34:26,284 - discord.client - INFO - logging in using static token
+2025-04-14 20:34:28,590 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:34:28,896 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:34:30,144 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:34:30,145 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:34:30,146 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:34:30,148 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:34:30,152 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:34:30,384 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:34:30,693 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 08eb1fbc994a347be85397ce284b9c60).
+2025-04-14 20:34:32,723 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:34:32,724 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:34:32,725 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:34:32,725 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package/schedule1/ScheduleLua/
+2025-04-14 20:34:33,409 - schedulelua_bot.thunderstore - ERROR - Failed to fetch ScheduleLua updates: 404
+2025-04-14 20:34:33,410 - schedulelua_bot.thunderstore - INFO - API URL: https://thunderstore.io/api/v1/package/schedule1/ScheduleLua/
+2025-04-14 20:41:23,839 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:41:23,840 - discord.client - INFO - logging in using static token
+2025-04-14 20:41:24,420 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:41:24,744 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:41:26,030 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:41:26,030 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:41:26,032 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:41:26,033 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:41:26,039 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:41:26,315 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:41:26,657 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 908f8bca6e4de27118277aaa054b2d1b).
+2025-04-14 20:41:28,671 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:41:28,672 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:41:28,673 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:41:28,674 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/c/schedule1/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 20:41:29,346 - schedulelua_bot.thunderstore - WARNING - Could not fetch package data from https://thunderstore.io/c/schedule1/api/v1/package/ScheduleLua/ScheduleLua/: 404
+2025-04-14 20:41:29,347 - schedulelua_bot.thunderstore - INFO - Trying fallback URL: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 20:41:29,779 - schedulelua_bot.thunderstore - ERROR - Failed to fetch package data from fallback URL: 404
+2025-04-14 20:44:39,577 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:44:39,578 - discord.client - INFO - logging in using static token
+2025-04-14 20:44:40,111 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:44:40,440 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:44:41,802 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:44:41,802 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:44:41,804 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:44:41,805 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:44:41,810 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:44:42,006 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:44:42,345 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a6755d9ef310fc7804f3cd03f83bd7b3).
+2025-04-14 20:44:44,348 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:44:44,348 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:44:44,349 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:44:44,349 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package-metrics/schedule1/ScheduleLua/
+2025-04-14 20:44:44,614 - schedulelua_bot.thunderstore - ERROR - Failed to fetch ScheduleLua updates: 404
+2025-04-14 20:44:44,614 - schedulelua_bot.thunderstore - INFO - API URL: https://thunderstore.io/api/v1/package-metrics/schedule1/ScheduleLua/
+2025-04-14 20:45:13,887 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:45:13,888 - discord.client - INFO - logging in using static token
+2025-04-14 20:45:14,927 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:45:15,252 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:45:16,599 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:45:16,599 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:45:16,601 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:45:16,603 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:45:16,605 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:45:16,784 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:45:17,140 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 39c8130de5ceafb2d0a551e63106d7ba).
+2025-04-14 20:45:19,189 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:45:19,189 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:45:19,190 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:45:19,190 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package-metrics/ScheduleLua/ScheduleLua/
+2025-04-14 20:45:19,760 - schedulelua_bot.thunderstore - ERROR - No versions found in package metrics data
+2025-04-14 20:49:15,779 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:49:15,781 - discord.client - INFO - logging in using static token
+2025-04-14 20:49:16,290 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:49:16,629 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:49:17,968 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:49:17,969 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:49:17,971 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:49:17,973 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:49:17,978 - schedulelua_bot.thunderstore - INFO - Initialized Thunderstore updates monitoring for ScheduleLua/ScheduleLua
+2025-04-14 20:49:17,978 - schedulelua_bot.thunderstore - INFO - API base URL: https://thunderstore.io/api/v1
+2025-04-14 20:49:17,979 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:49:18,155 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:49:18,523 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b4a150cc0fdceb83da64d6dc52bed8d9).
+2025-04-14 20:49:20,533 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:49:20,534 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:49:20,535 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:49:20,535 - schedulelua_bot.thunderstore - INFO - Fetching package list from: https://thunderstore.io/api/v1/package/
+2025-04-14 20:49:21,010 - schedulelua_bot.thunderstore - ERROR - Could not find package with namespace 'ScheduleLua' and name 'ScheduleLua'
+2025-04-14 20:50:45,942 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:50:45,943 - discord.client - INFO - logging in using static token
+2025-04-14 20:50:46,386 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:50:46,707 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:50:48,011 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:50:48,012 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:50:48,013 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:50:48,014 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:50:48,020 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:50:48,194 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:50:48,526 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d095e02b83a5a6003dca3dd1fc3eb882).
+2025-04-14 20:50:50,541 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:50:50,542 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:50:50,542 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:50:50,543 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package-metrics/ScheduleLua/ScheduleLua/
+2025-04-14 20:50:51,132 - schedulelua_bot.thunderstore - ERROR - No versions found in package metrics data
+2025-04-14 20:54:00,304 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:54:00,305 - discord.client - INFO - logging in using static token
+2025-04-14 20:54:00,959 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:54:01,290 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:54:02,569 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:54:02,570 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:54:02,572 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:54:02,573 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:54:02,578 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:54:02,794 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:54:03,154 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cbd3dfad2bf7dde210bfe4d1c9a4f806).
+2025-04-14 20:54:05,163 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:54:05,163 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:54:05,164 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:54:05,164 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package-metrics/ScheduleLua/ScheduleLua/
+2025-04-14 20:54:05,808 - schedulelua_bot.thunderstore - INFO - Fetching package details from: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 20:54:06,016 - schedulelua_bot.thunderstore - WARNING - Could not fetch package details: 404
+2025-04-14 20:54:06,211 - schedulelua_bot.thunderstore - INFO - New ScheduleLua version detected: 0.1.0
+2025-04-14 20:57:41,808 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 20:57:41,809 - discord.client - INFO - logging in using static token
+2025-04-14 20:57:42,361 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 20:57:42,697 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 20:57:44,058 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 20:57:44,059 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 20:57:44,061 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 20:57:44,063 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 20:57:44,067 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 20:57:44,269 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 20:57:44,569 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9e481a006dd33d2ff3e09d5f99b2ce98).
+2025-04-14 20:57:46,567 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 20:57:46,568 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 20:57:46,568 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 20:57:46,569 - schedulelua_bot.thunderstore - INFO - Fetching updates from: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 20:57:46,827 - schedulelua_bot.thunderstore - ERROR - Failed to fetch ScheduleLua updates: 404
+2025-04-14 20:57:46,827 - schedulelua_bot.thunderstore - INFO - API URL: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:01:39,246 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:01:39,247 - discord.client - INFO - logging in using static token
+2025-04-14 21:01:39,699 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:01:40,020 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:01:41,366 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:01:41,366 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:01:41,368 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:01:41,369 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:01:41,375 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:01:41,534 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:01:42,119 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ef7b3ca8047a1e78186eb4d26d1b1c0).
+2025-04-14 21:01:44,137 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:01:44,138 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:01:44,139 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:01:44,139 - schedulelua_bot.thunderstore - INFO - API Call 1/3: Fetching package data from: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:01:44,437 - schedulelua_bot.thunderstore - ERROR - API Error: Failed to fetch package data: HTTP 404
+2025-04-14 21:01:44,437 - schedulelua_bot.thunderstore - ERROR - URL: https://thunderstore.io/api/v1/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:02:47,250 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:02:47,251 - discord.client - INFO - logging in using static token
+2025-04-14 21:02:47,689 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:02:48,026 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:02:49,507 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:02:49,507 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:02:49,509 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:02:49,511 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:02:49,518 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:02:49,767 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:02:50,095 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 240ff05dbbd5eb809be1e4c7c5fa7eeb).
+2025-04-14 21:02:52,101 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:02:52,102 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:02:52,103 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:02:52,103 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:02:52,732 - schedulelua_bot.thunderstore - INFO - API Call 2/3: experimental_package_version_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/
+2025-04-14 21:02:52,959 - schedulelua_bot.thunderstore - INFO - API Call 3/3: experimental_package_version_changelog_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/changelog/
+2025-04-14 21:02:53,513 - schedulelua_bot.thunderstore - INFO - New version processed: 0.1.0
+2025-04-14 21:03:20,655 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:03:20,663 - discord.client - INFO - logging in using static token
+2025-04-14 21:03:21,156 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:03:21,497 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:03:22,768 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:03:22,768 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:03:22,770 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:03:22,771 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:03:22,778 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:03:22,948 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:03:23,448 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 912e33c1a655f9913851b8278739e2fb).
+2025-04-14 21:03:25,464 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:03:25,464 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:03:25,466 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:03:25,466 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:03:25,714 - schedulelua_bot.thunderstore - INFO - API Call 2/3: experimental_package_version_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/
+2025-04-14 21:03:25,908 - schedulelua_bot.thunderstore - INFO - API Call 3/3: experimental_package_version_changelog_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/changelog/
+2025-04-14 21:03:26,342 - schedulelua_bot.thunderstore - INFO - New version processed: 0.1.0
+2025-04-14 21:05:00,908 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:05:00,909 - discord.client - INFO - logging in using static token
+2025-04-14 21:05:01,616 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:05:01,947 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:05:03,321 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:05:03,321 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:05:03,323 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:05:03,325 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:05:03,332 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:05:03,505 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:05:03,848 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6438fe63d1dfe08fcf88245f28f0a791).
+2025-04-14 21:05:05,880 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:05:05,880 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:05:05,881 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:05:05,881 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:05:06,143 - schedulelua_bot.thunderstore - INFO - API Call 2/3: experimental_package_version_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/
+2025-04-14 21:05:06,346 - schedulelua_bot.thunderstore - INFO - API Call 3/3: experimental_package_version_changelog_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/changelog/
+2025-04-14 21:05:06,867 - schedulelua_bot.thunderstore - INFO - New version processed: 0.1.0
+2025-04-14 21:09:53,647 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:09:53,649 - discord.client - INFO - logging in using static token
+2025-04-14 21:09:54,124 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:09:54,451 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:09:55,798 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:09:55,798 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:09:55,800 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:09:55,802 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:09:55,810 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:09:55,975 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:09:56,293 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 589e1a45d249c861bdeda5ac07bf2a31).
+2025-04-14 21:09:58,315 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:09:58,316 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:09:58,316 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:09:58,317 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:09:58,921 - schedulelua_bot.thunderstore - INFO - No new updates. Current version: 0.1.0
+2025-04-14 21:10:01,630 - schedulelua_bot - INFO - Successfully saved Installation Guide | ScheduleLua Documentation (Beta) to data/docs\installation_guide___schedulelua_documentation__beta_.md
+2025-04-14 21:10:06,918 - schedulelua_bot - INFO - Successfully saved Getting Started with ScheduleLua (Beta) | ScheduleLua Documentation (Beta) to data/docs\getting_started_with_schedulelua__beta____schedulelua_documentation__beta_.md
+2025-04-14 21:10:12,087 - schedulelua_bot - INFO - Successfully saved Development Status | ScheduleLua Documentation (Beta) to data/docs\development_status___schedulelua_documentation__beta_.md
+2025-04-14 21:10:17,296 - schedulelua_bot - INFO - Successfully saved Script Structure | ScheduleLua Documentation (Beta) to data/docs\script_structure___schedulelua_documentation__beta_.md
+2025-04-14 21:10:22,516 - schedulelua_bot - INFO - Successfully saved Script Lifecycle Hooks | ScheduleLua Documentation (Beta) to data/docs\script_lifecycle_hooks___schedulelua_documentation__beta_.md
+2025-04-14 21:10:27,714 - schedulelua_bot - INFO - Successfully saved ScheduleLua Best Practices | ScheduleLua Documentation (Beta) to data/docs\schedulelua_best_practices___schedulelua_documentation__beta_.md
+2025-04-14 21:10:32,927 - schedulelua_bot - INFO - Successfully saved ScheduleLua Limitations | ScheduleLua Documentation (Beta) to data/docs\schedulelua_limitations___schedulelua_documentation__beta_.md
+2025-04-14 21:10:38,267 - schedulelua_bot - INFO - Successfully saved Reporting Issues with ScheduleLua | ScheduleLua Documentation (Beta) to data/docs\reporting_issues_with_schedulelua___schedulelua_documentation__beta_.md
+2025-04-14 21:11:19,850 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 21:11:22,323 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 21:11:22,325 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 21:13:16,995 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:13:16,996 - discord.client - INFO - logging in using static token
+2025-04-14 21:13:17,655 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:13:17,988 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:13:19,390 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:13:19,390 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:13:19,392 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:13:19,394 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:13:19,402 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:13:19,610 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:13:20,041 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f1c9e209c0e8c3a597e80dbaeb303530).
+2025-04-14 21:13:22,068 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:13:22,069 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:13:22,070 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:13:22,070 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:13:22,327 - schedulelua_bot.thunderstore - INFO - No new updates. Current version: 0.1.0
+2025-04-14 21:13:41,638 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 21:13:46,330 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent "HTTP/1.1 200 OK"
+2025-04-14 21:13:46,332 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 21:14:39,896 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 21:14:44,228 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent "HTTP/1.1 200 OK"
+2025-04-14 21:14:44,230 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 21:17:28,506 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:17:28,507 - discord.client - INFO - logging in using static token
+2025-04-14 21:17:28,970 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:17:29,296 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:17:30,640 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:17:30,640 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:17:30,642 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:17:30,644 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:17:30,650 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:17:30,834 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:17:31,184 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 598d6bda1a97646298ac58854a46a318).
+2025-04-14 21:17:33,194 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:17:33,194 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:17:33,195 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:17:33,196 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:17:33,865 - schedulelua_bot.thunderstore - INFO - No new updates. Current version: 0.1.0
+2025-04-14 21:18:55,259 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:18:55,260 - discord.client - INFO - logging in using static token
+2025-04-14 21:18:55,825 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:18:56,145 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:18:57,437 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:18:57,437 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:18:57,440 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:18:57,441 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:18:57,443 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:18:57,703 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:18:59,074 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1ea17e29d8aebfe5f2e225957d108ded).
+2025-04-14 21:19:01,080 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:19:01,081 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:19:01,082 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:19:01,082 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:19:01,604 - schedulelua_bot.thunderstore - INFO - No new updates. Current version: 0.1.0
+2025-04-14 21:19:17,181 - schedulelua_bot - INFO - Successfully saved README to data/docs\readme.md
+2025-04-14 21:19:17,343 - schedulelua_bot - INFO - Successfully saved Installation Guide | ScheduleLua Documentation (Beta) to data/docs\installation_guide___schedulelua_documentation__beta_.md
+2025-04-14 21:19:22,524 - schedulelua_bot - INFO - Successfully saved Getting Started with ScheduleLua (Beta) | ScheduleLua Documentation (Beta) to data/docs\getting_started_with_schedulelua__beta____schedulelua_documentation__beta_.md
+2025-04-14 21:19:27,731 - schedulelua_bot - INFO - Successfully saved Development Status | ScheduleLua Documentation (Beta) to data/docs\development_status___schedulelua_documentation__beta_.md
+2025-04-14 21:19:32,896 - schedulelua_bot - INFO - Successfully saved Script Structure | ScheduleLua Documentation (Beta) to data/docs\script_structure___schedulelua_documentation__beta_.md
+2025-04-14 21:19:38,073 - schedulelua_bot - INFO - Successfully saved Script Lifecycle Hooks | ScheduleLua Documentation (Beta) to data/docs\script_lifecycle_hooks___schedulelua_documentation__beta_.md
+2025-04-14 21:19:43,262 - schedulelua_bot - INFO - Successfully saved ScheduleLua Best Practices | ScheduleLua Documentation (Beta) to data/docs\schedulelua_best_practices___schedulelua_documentation__beta_.md
+2025-04-14 21:19:48,570 - schedulelua_bot - INFO - Successfully saved ScheduleLua Limitations | ScheduleLua Documentation (Beta) to data/docs\schedulelua_limitations___schedulelua_documentation__beta_.md
+2025-04-14 21:19:53,858 - schedulelua_bot - INFO - Successfully saved Reporting Issues with ScheduleLua | ScheduleLua Documentation (Beta) to data/docs\reporting_issues_with_schedulelua___schedulelua_documentation__beta_.md
+2025-04-14 21:20:17,247 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 21:20:21,835 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent "HTTP/1.1 200 OK"
+2025-04-14 21:20:21,837 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 21:20:49,606 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:20:49,608 - discord.client - INFO - logging in using static token
+2025-04-14 21:20:50,037 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:20:50,362 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:20:51,640 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:20:51,640 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:20:51,643 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:20:51,644 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:20:51,650 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:20:51,813 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:20:52,221 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6431254eb53ba30cdd4551b4f6b27f5f).
+2025-04-14 21:20:54,241 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:20:54,242 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:20:54,242 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:20:54,243 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:20:54,509 - schedulelua_bot.thunderstore - INFO - No new updates. Current version: 0.1.0
+2025-04-14 21:21:06,952 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-14 21:21:09,716 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-14 21:21:09,719 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-14 21:21:44,048 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:21:44,049 - discord.client - INFO - logging in using static token
+2025-04-14 21:21:44,570 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:21:44,886 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:21:46,166 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:21:46,166 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:21:46,168 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:21:46,169 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:21:46,171 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:21:46,371 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:21:46,640 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1be6007f3a053a6f123493be8a895e34).
+2025-04-14 21:21:48,650 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:21:48,651 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:21:48,652 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:21:48,652 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:21:48,902 - schedulelua_bot.thunderstore - INFO - API Call 2/3: experimental_package_version_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/
+2025-04-14 21:21:49,131 - schedulelua_bot.thunderstore - INFO - API Call 3/3: experimental_package_version_changelog_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/changelog/
+2025-04-14 21:21:49,748 - schedulelua_bot.thunderstore - INFO - New version processed: 0.1.0
+2025-04-14 21:24:59,033 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-14 21:24:59,033 - discord.client - INFO - logging in using static token
+2025-04-14 21:24:59,500 - schedulelua_bot - INFO - Loaded cog: admin.py
+2025-04-14 21:24:59,833 - schedulelua_bot - INFO - Loaded cog: auto_response.py
+2025-04-14 21:25:01,170 - schedulelua_bot - INFO - Gemini integration initialized
+2025-04-14 21:25:01,170 - schedulelua_bot - INFO - Loaded cog: gemini.py
+2025-04-14 21:25:01,171 - schedulelua_bot - INFO - Loaded cog: info.py
+2025-04-14 21:25:01,173 - schedulelua_bot - INFO - Loaded cog: rules.py
+2025-04-14 21:25:01,180 - schedulelua_bot - INFO - Loaded cog: thunderstore.py
+2025-04-14 21:25:01,392 - schedulelua_bot - INFO - Synced commands to guild 1361253403002671156
+2025-04-14 21:25:01,814 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f0a57b575cd041258c34d7ed572e3dfc).
+2025-04-14 21:25:03,889 - schedulelua_bot - INFO - Logged in as ScheduleLua Bot#5191 (ID: 1361266970577735721)
+2025-04-14 21:25:03,890 - schedulelua_bot - INFO - Bot is ready!
+2025-04-14 21:25:03,890 - schedulelua_bot.thunderstore - INFO - Checking for ScheduleLua updates on Thunderstore...
+2025-04-14 21:25:03,891 - schedulelua_bot.thunderstore - INFO - API Call 1/3: experimental_package_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/
+2025-04-14 21:25:04,527 - schedulelua_bot.thunderstore - INFO - API Call 2/3: experimental_package_version_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/
+2025-04-14 21:25:04,729 - schedulelua_bot.thunderstore - INFO - API Call 3/3: experimental_package_version_changelog_read: https://thunderstore.io/api/experimental/package/ScheduleLua/ScheduleLua/0.1.0/changelog/
+2025-04-14 21:25:05,510 - schedulelua_bot.thunderstore - INFO - New version processed: 0.1.0
