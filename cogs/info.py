@@ -5,8 +5,9 @@ import os
 import json
 from typing import List, Optional
 import datetime
+import random
 
-from utils.helpers import create_embed
+from utils.helpers import create_embed, load_json, save_json
 
 class Info(commands.Cog):
     """Commands for providing information about ScheduleLua"""
@@ -107,6 +108,32 @@ class Info(commands.Cog):
         
         await interaction.response.send_message(embed=embed)
     
+    @app_commands.command(name="quote", description="Get a random John Lua quote")
+    async def quote(self, interaction: discord.Interaction):
+        """Returns a random John Lua quote"""
+        quotes_file = "data/john_lua_quotes.json"
+        
+        try:
+            data = load_json(quotes_file)
+            quotes = data.get("quotes", [])
+            
+            if not quotes:
+                await interaction.response.send_message("No quotes found in the quotes file.", ephemeral=True)
+                return
+                
+            random_quote = random.choice(quotes)
+            
+            embed = create_embed(
+                title="John Lua Says...",
+                description=f"*\"{random_quote}\"*",
+                color=discord.Color.gold()
+            )
+            
+            await interaction.response.send_message(embed=embed)
+        except Exception as e:
+            self.bot.logger.error(f"Error retrieving quote: {e}")
+            await interaction.response.send_message("Failed to retrieve a quote.", ephemeral=True)
+    
     @app_commands.command(name="help", description="Get help with ScheduleLua commands")
     async def help_command(self, interaction: discord.Interaction):
         """Provides help with bot commands"""
@@ -124,7 +151,8 @@ class Info(commands.Cog):
                 "/docs - Get documentation links\n"
                 "/report - Learn how to report bugs or request features\n"
                 "/help - Show this help message\n"
-                "/chat - Chat with the AI assistant about ScheduleLua"
+                "/chat - Chat with the AI assistant about ScheduleLua\n"
+                "/quote - Get a random John Lua quote"
             ),
             inline=False
         )
