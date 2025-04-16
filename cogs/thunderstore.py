@@ -192,8 +192,8 @@ class ThunderstoreUpdates(commands.Cog):
             self.logger.error(f"Error fetching changelog: {e}")
             return None
     
-    def _format_changelog(self, changelog: str) -> str:
-        """Format changelog text for better Discord presentation"""
+    def _format_changelog(self, changelog: str, version: str) -> str:
+        """Format changelog text for better Discord presentation, extracting only the relevant version"""
         if not changelog:
             return ""
             
@@ -203,6 +203,8 @@ class ThunderstoreUpdates(commands.Cog):
         current_section = []
         in_section = False
         section_level = 0
+        current_version = None
+        target_section = None
         
         # Process important sections to highlight
         # We want to preserve hierarchy but format it for Discord
@@ -211,73 +213,111 @@ class ThunderstoreUpdates(commands.Cog):
             if not line.strip() and not formatted_sections and not current_section:
                 continue
                 
+            # Check if this line indicates a version section
+            version_markers = [
+                f"[{version}]",
+                f"[v{version}]",
+            ]
+            
+            is_version_header = any(marker in line for marker in version_markers)
+            # Also check for brackets with the version
+            if "[" in line and "]" in line and version in line:
+                is_version_header = True
+                
+            # If we find the target version header
+            if is_version_header:
+                if current_section:
+                    # Save previous section if exists
+                    formatted_sections.append('\n'.join(current_section))
+                current_section = []
+                current_section.append(f"**{line.strip('# ')}**")
+                current_version = version
+                in_section = True
+                section_level = 1
+                continue
+                
+            # If we find a different version header after our target version, stop processing
+            # Look for version pattern like [0.1.2] or ## 0.1.2
+            if current_version == version and (
+                (line.startswith('# ') or line.startswith('## ')) and 
+                ('[' in line or ']' in line or 
+                 any(c.isdigit() for c in line))
+            ):
+                # Check if this is a new version section
+                if any(f"[{v}]" in line or f"## {v}" in line or f"# {v}" in line 
+                       for v in [version[:v_len] for v_len in range(len(version), 2, -1)]):
+                    continue  # Still part of current version (like a subsection)
+                else:
+                    # We've reached the next version section, stop
+                    break
+                
             # Handle headers - preserve hierarchy
             if line.startswith('# '):
                 # Main header - make it bold, all caps
-                if current_section:
+                if current_section and current_version != version:
                     formatted_sections.append('\n'.join(current_section))
                     current_section = []
-                current_section.append(f"**{line.strip('# ').upper()}**")
-                in_section = True
+                elif current_version == version:
+                    current_section.append(f"**{line.strip('# ').upper()}**")
                 section_level = 1
             elif line.startswith('## '):
                 # Secondary header - version or major section
-                if current_section and section_level > 2:
+                if current_section and section_level > 2 and current_version != version:
                     formatted_sections.append('\n'.join(current_section))
                     current_section = []
-                current_section.append(f"**{line.strip('# ')}**")
-                in_section = True
+                elif current_version == version:
+                    current_section.append(f"**{line.strip('# ')}**")
                 section_level = 2
             elif line.startswith('### '):
                 # Tertiary header - subsection
-                current_section.append(f"__**{line.strip('# ')}**__")
+                if current_version == version:
+                    current_section.append(f"__**{line.strip('# ')}**__")
                 section_level = 3
             elif line.startswith('#### '):
                 # Fourth-level header
-                current_section.append(f"__{line.strip('# ')}__")
+                if current_version == version:
+                    current_section.append(f"__{line.strip('# ')}__")
                 section_level = 4
             # Handle lists
             elif line.strip().startswith(('- ', '* ', '+ ')):
                 # Format bullet points consistently
-                current_section.append(f"• {line.strip()[2:]}")
+                if current_version == version:
+                    current_section.append(f"• {line.strip()[2:]}")
             # Regular lines
             elif line.strip():
-                current_section.append(line)
+                if current_version == version:
+                    current_section.append(line)
             # Empty line handling
-            elif current_section:
+            elif current_section and current_version == version:
                 # Only add one empty line to separate sections
                 if current_section[-1]:
                     current_section.append("")
         
-        # Add the last section if it exists
-        if current_section:
-            formatted_sections.append('\n'.join(current_section))
+        # Save the last section if it's our target version
+        if current_section and current_version == version:
+            target_section = '\n'.join(current_section)
         
-        # If we have multiple sections, select the most relevant ones
-        if len(formatted_sections) > 1:
-            # Look for version-specific sections (usually the second major section)
-            version_sections = []
-            for section in formatted_sections:
-                # Prioritize sections like [0.1.0] or Version 0.1.0
-                if '[' in section and ']' in section and any(c.isdigit() for c in section):
-                    version_sections.append(section)
-                elif 'version' in section.lower() and any(c.isdigit() for c in section):
-                    version_sections.append(section)
-                    
-            if version_sections:
-                # Get the most recent version section (usually the first one found)
-                combined = version_sections[0]
-                # Limit to reasonable size
-                if len(combined) > 1000:
-                    return combined[:997] + "..."
-                return combined
+        # If we found our target version section, return it
+        if target_section:
+            if len(target_section) > 1000:
+                return target_section[:997] + "..."
+            return target_section
         
-        # If no specific version section found, return everything but limit size
-        combined = '\n\n'.join(formatted_sections)
-        if len(combined) > 1000:
-            return combined[:997] + "..."
+        # Fallback: if no specific version section found, try to find by version mentions
+        for section in formatted_sections:
+            if version in section:
+                if len(section) > 1000:
+                    return section[:997] + "..."
+                return section
         
-        return combined
+        # Ultimate fallback: just return first section
+        if formatted_sections:
+            combined = formatted_sections[0]
+            if len(combined) > 1000:
+                return combined[:997] + "..."
+            return combined
+        
+        return "No changelog available for this version."
     
     async def _send_update_notification(self, 
                                        channel: discord.TextChannel, 
@@ -333,28 +373,37 @@ class ThunderstoreUpdates(commands.Cog):
             if isinstance(raw_deps, list):
                 dependencies = raw_deps
                 
-            # Format changelog for Discord
-            formatted_changelog = self._format_changelog(changelog) if changelog else ""
+            # Format changelog for Discord, only for the current version
+            formatted_changelog = self._format_changelog(changelog, version) if changelog else ""
             
             # Extract key features from changelog if possible
             key_features = []
-            if changelog:
+            if formatted_changelog:  # Use already filtered changelog to extract features
                 # Look for "Added" or "Features" sections
-                for section in ["### Added", "### Features", "### New Features"]:
-                    if section in changelog:
-                        section_start = changelog.find(section) + len(section)
-                        section_end = changelog.find("###", section_start)
-                        if section_end == -1:
-                            section_end = len(changelog)
-                        features_text = changelog[section_start:section_end].strip()
-                        for line in features_text.split('\n'):
-                            if line.strip().startswith(('-', '*', '+')):
-                                feature = line.strip()[2:].strip()
-                                if feature:
-                                    key_features.append(feature)
+                for line in formatted_changelog.split('\n'):
+                    if line.strip().startswith(('• ', '- ', '* ')) and len(key_features) < 3:
+                        feature = line.strip()[2:].strip()
+                        if feature and not any(f.lower() == feature.lower() for f in key_features):
+                            key_features.append(feature)
                 
-                # Limit to 3 key features
-                key_features = key_features[:3]
+                # If no bullet points found, try another approach
+                if not key_features:
+                    for section in ["__**Added**__", "**Added**", "__**Features**__", "**Features**"]:
+                        if section in formatted_changelog:
+                            section_start = formatted_changelog.find(section) + len(section)
+                            section_end = min(
+                                pos for pos in [
+                                    formatted_changelog.find("__**", section_start),
+                                    formatted_changelog.find("**", section_start),
+                                    len(formatted_changelog)
+                                ] if pos > section_start
+                            )
+                            features_text = formatted_changelog[section_start:section_end].strip()
+                            for line in features_text.split('\n'):
+                                if line.strip().startswith(('• ', '- ', '* ')) and len(key_features) < 3:
+                                    feature = line.strip()[2:].strip()
+                                    if feature:
+                                        key_features.append(feature)
             
             # Download URL
             download_url = version_data.get("download_url", "")
