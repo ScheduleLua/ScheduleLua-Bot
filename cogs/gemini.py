@@ -223,6 +223,9 @@ class GeminiChatbot(commands.Cog):
             "guide/best-practices.html",
             "guide/limitations.html",
             "guide/reporting-issues.html",
+            "guide/mod-system.html",
+            "guide/mod-functions.html",
+            "guide/mod-deployment.html",
         ]
         
         added_count = 0
