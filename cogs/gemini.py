@@ -248,6 +248,13 @@ class GeminiChatbot(commands.Cog):
             "guide/mod-system.html",
             "guide/mod-functions.html",
             "guide/mod-deployment.html",
+            "api/",
+            "api/core/logging.html",
+            "api/core/commands.html",
+            "api/core/timing.html",
+            "api/core/gameobjects.html",
+            "api/core/globals.html",
+            "api/mod/",
         ]
         
         added_count = 0
