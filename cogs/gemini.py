@@ -57,6 +57,28 @@ class GeminiChatbot(commands.Cog):
         
         ScheduleLua documentation: https://ifbars.github.io/ScheduleLua-Docs/
         
+        IMPORTANT TOPICS YOU KNOW ABOUT:
+        - Mod system architecture and concepts
+        - Mod functions and their usage
+        - Mod deployment and distribution
+        
+        SCHEDULEUA MOD SYSTEM:
+        ScheduleLua supports two types of script loading:
+        1. Individual Scripts: Simple .lua files placed in the Scripts folder
+        2. Lua Mods: Structured folders containing manifest.json and multiple Lua files
+        
+        Lua Mods work similar to FiveM resources, with a folder structure:
+        - manifest.json: Contains mod metadata (name, author, version, dependencies)
+        - init.lua: Main entry point script (configurable in manifest)
+        - Additional .lua files: Referenced in the manifest
+        
+        Mods can interact with each other through:
+        - ExportFunction(): Making functions available to other mods
+        - ImportFunction(): Using functions from other mods
+        - GetMod(): Accessing information about other loaded mods
+        
+        The mod system handles dependencies, load order, and proper initialization.
+        
         IMPORTANT: When referencing documentation, ALWAYS link to the public GitHub Pages site 
         (https://ifbars.github.io/ScheduleLua-Docs/) rather than mentioning any local markdown files 
         or internal file structures. Users should always be directed to the official online documentation.
