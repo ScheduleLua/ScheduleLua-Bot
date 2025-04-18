@@ -224,6 +224,58 @@ class GeminiChatbot(commands.Cog):
             self.bot.logger.error(f"Error adding documentation file: {e}")
             await interaction.followup.send(f"Error adding documentation file: {str(e)}", ephemeral=True)
     
+    def crawl_docs(base_url, allowed_prefixes=None, max_pages=100):
+        """
+        Crawl the documentation site starting from base_url and return all unique internal routes.
+        allowed_prefixes: list of URL path prefixes to restrict crawling (e.g., ['guide/', 'api/'])
+        """
+        visited = set()
+        to_visit = set([base_url])
+        found_pages = set()
+
+        while to_visit and len(found_pages) < max_pages:
+            url = to_visit.pop()
+            if url in visited:
+                continue
+            visited.add(url)
+            try:
+                resp = requests.get(url)
+                resp.raise_for_status()
+                html = resp.text
+            except Exception:
+                continue
+
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                # Ignore external links
+                if href.startswith("http"):
+                    if not href.startswith(base_url):
+                        continue
+                    next_url = href
+                elif href.startswith("/"):
+                    next_url = urljoin(base_url, href)
+                else:
+                    next_url = urljoin(url, href)
+
+                # Remove fragments and queries
+                next_url = next_url.split("#")[0].split("?")[0]
+
+                # Only crawl under allowed prefixes
+                if allowed_prefixes:
+                    rel_path = urlparse(next_url).path.lstrip("/")
+                    if not any(rel_path.startswith(p) for p in allowed_prefixes):
+                        continue
+
+            # Only crawl HTML pages
+                if not next_url.endswith(".html") and not next_url.endswith("/"):
+                    continue
+
+                if next_url not in visited and next_url.startswith(base_url):
+                    to_visit.add(next_url)
+                    found_pages.add(next_url)
+        return sorted(found_pages)
+    
     @app_commands.command(name="scrape_documentation", description="Scrape ScheduleLua documentation and save as markdown files")
     @app_commands.default_permissions(administrator=True)
     async def scrape_documentation(self, interaction: discord.Interaction):
@@ -235,27 +287,12 @@ class GeminiChatbot(commands.Cog):
             
         await interaction.response.defer(thinking=True)
         
-        # Example documentation pages to scrape
-        doc_pages = [
-            "guide/installation.html",
-            "guide/getting-started.html",
-            "guide/development-status.html",
-            "guide/script-structure.html",
-            "guide/lifecycle-hooks.html",
-            "guide/best-practices.html",
-            "guide/limitations.html",
-            "guide/reporting-issues.html",
-            "guide/mod-system.html",
-            "guide/mod-functions.html",
-            "guide/mod-deployment.html",
-            "api/",
-            "api/core/logging.html",
-            "api/core/commands.html",
-            "api/core/timing.html",
-            "api/core/gameobjects.html",
-            "api/core/globals.html",
-            "api/mod/",
-        ]
+        await interaction.followup.send("Scanning documentation site for pages...", ephemeral=True)
+        doc_pages = self.crawl_docs(
+            self.docs_base_url,
+            allowed_prefixes=["guide/", "api/", "examples/", "database/"],  # Adjust as needed
+            max_pages=50  # Prevent runaway crawling
+        )
         
         added_count = 0
         errors_count = 0
@@ -263,28 +300,23 @@ class GeminiChatbot(commands.Cog):
         # First, fetch and save the README from the main repo
         try:
             readme_content = fetch_url_content(self.readme_url)
-            
-            # Save README to file
             file_path = os.path.join(self.docs_folder, "readme.md")
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(readme_content)
-            
             added_count += 1
             self.bot.logger.info(f"Successfully saved README to {file_path}")
-            
         except Exception as e:
             self.bot.logger.error(f"Error scraping README: {e}")
             errors_count += 1
         
         # Then process the regular documentation pages
-        for page in doc_pages:
+        for page_url in doc_pages:
             try:
-                page_url = f"{self.docs_base_url.rstrip('/')}/{page}"
                 content = fetch_url_content(page_url)
                 
                 # Extract title
                 title_match = re.search(r"<title>(.*?)</title>", content)
-                title = title_match.group(1) if title_match else page
+                title = title_match.group(1) if title_match else page_url
                 
                 # Simple HTML to markdown conversion
                 # Extract main content
@@ -298,26 +330,14 @@ class GeminiChatbot(commands.Cog):
                 main_content = re.sub(r'<h1.*?>(.*?)</h1>', r'# \1', main_content)
                 main_content = re.sub(r'<h2.*?>(.*?)</h2>', r'## \1', main_content)
                 main_content = re.sub(r'<h3.*?>(.*?)</h3>', r'### \1', main_content)
-                
-                # Convert links
                 main_content = re.sub(r'<a.*?href="(.*?)".*?>(.*?)</a>', r'[\2](\1)', main_content)
-                
-                # Convert lists
                 main_content = re.sub(r'<li.*?>(.*?)</li>', r'* \1', main_content)
-                
-                # Convert code blocks
                 main_content = re.sub(r'<pre.*?><code.*?>(.*?)</code></pre>', r'```\n\1\n```', main_content)
-                
-                # Remove other HTML tags
                 main_content = re.sub(r'<[^>]*>', ' ', main_content)
-                
-                # Clean up whitespace
                 main_content = re.sub(r'\s+', ' ', main_content).strip()
                 
                 # Add title
                 markdown_content = f"# {title}\n\n{main_content}"
-                
-                # Create filename from title
                 filename = re.sub(r'[^\w\-\.]', '_', title.lower().replace(' ', '_')) + '.md'
                 file_path = os.path.join(self.docs_folder, filename)
                 
@@ -327,10 +347,7 @@ class GeminiChatbot(commands.Cog):
                 
                 added_count += 1
                 self.bot.logger.info(f"Successfully saved {title} to {file_path}")
-                
-                # Add a small delay between HTTP requests
                 await asyncio.sleep(5)
-                
             except Exception as e:
                 self.bot.logger.error(f"Error scraping {page}: {e}")
                 errors_count += 1
