@@ -12,6 +12,9 @@ import re
 import time
 import glob
 import pathlib
+import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin, urlparse
 
 from utils.helpers import create_embed, load_json, save_json, fetch_url_content
 
@@ -224,58 +227,6 @@ class GeminiChatbot(commands.Cog):
             self.bot.logger.error(f"Error adding documentation file: {e}")
             await interaction.followup.send(f"Error adding documentation file: {str(e)}", ephemeral=True)
     
-    def crawl_docs(base_url, allowed_prefixes=None, max_pages=100):
-        """
-        Crawl the documentation site starting from base_url and return all unique internal routes.
-        allowed_prefixes: list of URL path prefixes to restrict crawling (e.g., ['guide/', 'api/'])
-        """
-        visited = set()
-        to_visit = set([base_url])
-        found_pages = set()
-
-        while to_visit and len(found_pages) < max_pages:
-            url = to_visit.pop()
-            if url in visited:
-                continue
-            visited.add(url)
-            try:
-                resp = requests.get(url)
-                resp.raise_for_status()
-                html = resp.text
-            except Exception:
-                continue
-
-            soup = BeautifulSoup(html, "html.parser")
-            for a in soup.find_all("a", href=True):
-                href = a["href"]
-                # Ignore external links
-                if href.startswith("http"):
-                    if not href.startswith(base_url):
-                        continue
-                    next_url = href
-                elif href.startswith("/"):
-                    next_url = urljoin(base_url, href)
-                else:
-                    next_url = urljoin(url, href)
-
-                # Remove fragments and queries
-                next_url = next_url.split("#")[0].split("?")[0]
-
-                # Only crawl under allowed prefixes
-                if allowed_prefixes:
-                    rel_path = urlparse(next_url).path.lstrip("/")
-                    if not any(rel_path.startswith(p) for p in allowed_prefixes):
-                        continue
-
-            # Only crawl HTML pages
-                if not next_url.endswith(".html") and not next_url.endswith("/"):
-                    continue
-
-                if next_url not in visited and next_url.startswith(base_url):
-                    to_visit.add(next_url)
-                    found_pages.add(next_url)
-        return sorted(found_pages)
-    
     @app_commands.command(name="scrape_documentation", description="Scrape ScheduleLua documentation and save as markdown files")
     @app_commands.default_permissions(administrator=True)
     async def scrape_documentation(self, interaction: discord.Interaction):
@@ -356,6 +307,58 @@ class GeminiChatbot(commands.Cog):
             f"Documentation scraping complete. Added {added_count} files. Encountered {errors_count} errors.",
             ephemeral=True
         )
+    
+    def crawl_docs(self, base_url, allowed_prefixes=None, max_pages=100):
+        """
+        Crawl the documentation site starting from base_url and return all unique internal routes.
+        allowed_prefixes: list of URL path prefixes to restrict crawling (e.g., ['guide/', 'api/'])
+        """
+        visited = set()
+        to_visit = set([base_url])
+        found_pages = set()
+
+        while to_visit and len(found_pages) < max_pages:
+            url = to_visit.pop()
+            if url in visited:
+                continue
+            visited.add(url)
+            try:
+                resp = requests.get(url)
+                resp.raise_for_status()
+                html = resp.text
+            except Exception:
+                continue
+
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                # Ignore external links
+                if href.startswith("http"):
+                    if not href.startswith(base_url):
+                        continue
+                    next_url = href
+                elif href.startswith("/"):
+                    next_url = urljoin(base_url, href)
+                else:
+                    next_url = urljoin(url, href)
+
+                # Remove fragments and queries
+                next_url = next_url.split("#")[0].split("?")[0]
+
+                # Only crawl under allowed prefixes
+                if allowed_prefixes:
+                    rel_path = urlparse(next_url).path.lstrip("/")
+                    if not any(rel_path.startswith(p) for p in allowed_prefixes):
+                        continue
+
+            # Only crawl HTML pages
+                if not next_url.endswith(".html") and not next_url.endswith("/"):
+                    continue
+
+                if next_url not in visited and next_url.startswith(base_url):
+                    to_visit.add(next_url)
+                    found_pages.add(next_url)
+        return sorted(found_pages)
     
     @app_commands.command(name="list_docs", description="List all documentation files in the knowledge base")
     @app_commands.default_permissions(administrator=True)
