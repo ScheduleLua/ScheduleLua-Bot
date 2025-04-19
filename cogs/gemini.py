@@ -251,9 +251,10 @@ class GeminiChatbot(commands.Cog):
             self.bot.logger.info(f"Starting documentation crawl from base URL: {self.docs_base_url}")
             await interaction.followup.send(f"Scanning documentation site for pages from: {self.docs_base_url}", ephemeral=True)
             
+            # Temporarily removed allowed_prefixes to see if that's blocking pages
             doc_pages = self.crawl_docs(
                 self.docs_base_url,
-                allowed_prefixes=["guide/", "api/", "examples/", "database/"],  # Adjust as needed
+                allowed_prefixes=None,  # Removed filter
                 max_pages=50  # Prevent runaway crawling
             )
         
@@ -381,6 +382,12 @@ class GeminiChatbot(commands.Cog):
                 links = soup.find_all("a", href=True)
                 self.bot.logger.info(f"Found {len(links)} links on page {url}")
                 
+                # Debug: Print all links found on the page
+                link_urls = [a.get("href") for a in links]
+                self.bot.logger.info(f"All links found on {url}: {link_urls[:10]}...")
+                if len(link_urls) > 10:
+                    self.bot.logger.info(f"...and {len(link_urls) - 10} more")
+                
                 for a in links:
                     href = a["href"]
                     
@@ -396,6 +403,7 @@ class GeminiChatbot(commands.Cog):
                     if href.startswith("http"):
                         # Absolute URL
                         if not href.startswith(base_url):
+                            self.bot.logger.info(f"Skipping external URL: {href}")
                             continue
                         next_url = href
                     elif href.startswith("/"):
@@ -412,11 +420,16 @@ class GeminiChatbot(commands.Cog):
                     if allowed_prefixes:
                         rel_path = urlparse(next_url).path.lstrip("/")
                         if not any(rel_path.startswith(p) for p in allowed_prefixes):
+                            self.bot.logger.info(f"Skipping URL with non-matching prefix: {next_url}, rel_path: {rel_path}")
                             continue
 
-                    # Only crawl HTML pages
-                    if not next_url.endswith(".html") and not next_url.endswith("/"):
-                        continue
+                    # Modified: Be more lenient with URL extensions - accept most web document types
+                    # and don't check extensions if URL ends with /
+                    if not next_url.endswith("/"):
+                        valid_extensions = [".html", ".htm", ".php", ".asp", ".aspx", ".jsp", ".md", ""]
+                        if not any(next_url.endswith(ext) for ext in valid_extensions):
+                            self.bot.logger.info(f"Skipping URL with invalid extension: {next_url}")
+                            continue
 
                     # Add to crawl queue if not visited
                     if next_url not in visited and next_url.startswith(base_url):
