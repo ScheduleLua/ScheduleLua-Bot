@@ -229,7 +229,8 @@ class GeminiChatbot(commands.Cog):
     
     @app_commands.command(name="scrape_documentation", description="Scrape ScheduleLua documentation and save as markdown files")
     @app_commands.default_permissions(administrator=True)
-    async def scrape_documentation(self, interaction: discord.Interaction):
+    @app_commands.describe(single_page_url="Optional: URL of a single page to scrape (for testing)")
+    async def scrape_documentation(self, interaction: discord.Interaction, single_page_url: str = None):
         """Scrape ScheduleLua documentation and save as markdown files using URLs from environment variables"""
         # Check if user is authorized
         if interaction.user.id != int(os.getenv('OWNER_ID')):
@@ -238,13 +239,31 @@ class GeminiChatbot(commands.Cog):
             
         await interaction.response.defer(thinking=True)
         
-        await interaction.followup.send("Scanning documentation site for pages...", ephemeral=True)
-        doc_pages = self.crawl_docs(
-            self.docs_base_url,
-            allowed_prefixes=["guide/", "api/", "examples/", "database/"],  # Adjust as needed
-            max_pages=50  # Prevent runaway crawling
-        )
+        doc_pages = []
         
+        # Single page mode for testing
+        if single_page_url:
+            self.bot.logger.info(f"Single page mode - testing with URL: {single_page_url}")
+            await interaction.followup.send(f"Testing scraper with single page: {single_page_url}", ephemeral=True)
+            doc_pages = [single_page_url]
+        else:
+            # Log the base URL for debugging
+            self.bot.logger.info(f"Starting documentation crawl from base URL: {self.docs_base_url}")
+            await interaction.followup.send(f"Scanning documentation site for pages from: {self.docs_base_url}", ephemeral=True)
+            
+            doc_pages = self.crawl_docs(
+                self.docs_base_url,
+                allowed_prefixes=["guide/", "api/", "examples/", "database/"],  # Adjust as needed
+                max_pages=50  # Prevent runaway crawling
+            )
+        
+        # Log the found pages for debugging
+        self.bot.logger.info(f"Found {len(doc_pages)} pages to crawl")
+        if len(doc_pages) > 0:
+            self.bot.logger.info(f"Sample pages: {doc_pages[:3]}")
+        else:
+            self.bot.logger.warning("No documentation pages were found during crawling!")
+            
         added_count = 0
         errors_count = 0
         
@@ -263,19 +282,27 @@ class GeminiChatbot(commands.Cog):
         # Then process the regular documentation pages
         for page_url in doc_pages:
             try:
+                self.bot.logger.info(f"Processing documentation page: {page_url}")
                 content = fetch_url_content(page_url)
+                
+                if not content or len(content) < 50:
+                    self.bot.logger.warning(f"Skipping page with insufficient content: {page_url}")
+                    continue
                 
                 # Extract title
                 title_match = re.search(r"<title>(.*?)</title>", content)
-                title = title_match.group(1) if title_match else page_url
+                title = title_match.group(1) if title_match else os.path.basename(page_url)
+                self.bot.logger.info(f"Extracted title: {title}")
                 
                 # Simple HTML to markdown conversion
                 # Extract main content
                 main_content_match = re.search(r'<main.*?>(.*?)</main>', content, re.DOTALL)
                 if main_content_match:
                     main_content = main_content_match.group(1)
+                    self.bot.logger.info(f"Found <main> content section for {page_url}")
                 else:
                     main_content = content
+                    self.bot.logger.warning(f"No <main> section found for {page_url}, using full content")
                 
                 # Convert headings
                 main_content = re.sub(r'<h1.*?>(.*?)</h1>', r'# \1', main_content)
@@ -298,9 +325,9 @@ class GeminiChatbot(commands.Cog):
                 
                 added_count += 1
                 self.bot.logger.info(f"Successfully saved {title} to {file_path}")
-                await asyncio.sleep(5)
+                await asyncio.sleep(5)  # Rate limiting
             except Exception as e:
-                self.bot.logger.error(f"Error scraping {page}: {e}")
+                self.bot.logger.error(f"Error scraping {page_url}: {e}")
                 errors_count += 1
         
         await interaction.followup.send(
@@ -317,47 +344,89 @@ class GeminiChatbot(commands.Cog):
         to_visit = set([base_url])
         found_pages = set()
 
+        self.bot.logger.info(f"Starting crawler with base_url: {base_url}")
+        
+        # Validate base URL by attempting to fetch it
+        try:
+            resp = requests.get(base_url, timeout=10)
+            resp.raise_for_status()
+            self.bot.logger.info(f"Successfully connected to base URL: {base_url}")
+            self.bot.logger.info(f"Base URL returned HTTP {resp.status_code} with content length: {len(resp.text)} bytes")
+        except Exception as e:
+            self.bot.logger.error(f"Could not connect to base URL: {base_url}")
+            self.bot.logger.error(f"Error: {str(e)}")
+            return list(found_pages)
+            
+        self.bot.logger.info(f"Allowed prefixes: {allowed_prefixes}")
+
         while to_visit and len(found_pages) < max_pages:
             url = to_visit.pop()
             if url in visited:
                 continue
+                
             visited.add(url)
+            self.bot.logger.info(f"Crawling URL: {url}")
+            
             try:
-                resp = requests.get(url)
+                resp = requests.get(url, timeout=10)
                 resp.raise_for_status()
                 html = resp.text
-            except Exception:
+                self.bot.logger.info(f"Successfully fetched page: {url}")
+            except Exception as e:
+                self.bot.logger.error(f"Error fetching {url}: {e}")
                 continue
 
-            soup = BeautifulSoup(html, "html.parser")
-            for a in soup.find_all("a", href=True):
-                href = a["href"]
-                # Ignore external links
-                if href.startswith("http"):
-                    if not href.startswith(base_url):
+            try:
+                soup = BeautifulSoup(html, "html.parser")
+                links = soup.find_all("a", href=True)
+                self.bot.logger.info(f"Found {len(links)} links on page {url}")
+                
+                for a in links:
+                    href = a["href"]
+                    
+                    # Ignore empty links
+                    if not href.strip():
                         continue
-                    next_url = href
-                elif href.startswith("/"):
-                    next_url = urljoin(base_url, href)
-                else:
-                    next_url = urljoin(url, href)
+                        
+                    # Ignore javascript links
+                    if href.startswith("javascript:"):
+                        continue
+                        
+                    # Handle URL types
+                    if href.startswith("http"):
+                        # Absolute URL
+                        if not href.startswith(base_url):
+                            continue
+                        next_url = href
+                    elif href.startswith("/"):
+                        # Site-relative URL
+                        next_url = urljoin(base_url, href)
+                    else:
+                        # Page-relative URL
+                        next_url = urljoin(url, href)
 
-                # Remove fragments and queries
-                next_url = next_url.split("#")[0].split("?")[0]
+                    # Remove fragments and queries
+                    next_url = next_url.split("#")[0].split("?")[0]
 
-                # Only crawl under allowed prefixes
-                if allowed_prefixes:
-                    rel_path = urlparse(next_url).path.lstrip("/")
-                    if not any(rel_path.startswith(p) for p in allowed_prefixes):
+                    # Only crawl under allowed prefixes if specified
+                    if allowed_prefixes:
+                        rel_path = urlparse(next_url).path.lstrip("/")
+                        if not any(rel_path.startswith(p) for p in allowed_prefixes):
+                            continue
+
+                    # Only crawl HTML pages
+                    if not next_url.endswith(".html") and not next_url.endswith("/"):
                         continue
 
-            # Only crawl HTML pages
-                if not next_url.endswith(".html") and not next_url.endswith("/"):
-                    continue
-
-                if next_url not in visited and next_url.startswith(base_url):
-                    to_visit.add(next_url)
-                    found_pages.add(next_url)
+                    # Add to crawl queue if not visited
+                    if next_url not in visited and next_url.startswith(base_url):
+                        to_visit.add(next_url)
+                        found_pages.add(next_url)
+                        self.bot.logger.info(f"Added to crawl queue: {next_url}")
+            except Exception as e:
+                self.bot.logger.error(f"Error parsing page {url}: {e}")
+                
+        self.bot.logger.info(f"Crawling complete. Found {len(found_pages)} pages.")
         return sorted(found_pages)
     
     @app_commands.command(name="list_docs", description="List all documentation files in the knowledge base")
