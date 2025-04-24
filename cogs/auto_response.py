@@ -28,12 +28,12 @@ class AutoResponse(commands.Cog):
             default_responses = {
                 "install": {
                     "triggers": ["how to install", "installation", "setup guide"],
-                    "response": "To install ScheduleLua, check out our installation guide: https://ifbars.github.io/ScheduleLua-Docs/guide/installation.html",
+                    "response": "To install ScheduleLua, check out our installation guide: https://schedulelua.github.io/ScheduleLua-Docs/guide/installation.html",
                     "embed": True
                 },
                 "getting_started": {
                     "triggers": ["getting started", "how to use", "first script"],
-                    "response": "To get started with ScheduleLua, follow our Getting Started guide: https://ifbars.github.io/ScheduleLua-Docs/guide/getting-started.html",
+                    "response": "To get started with ScheduleLua, follow our Getting Started guide: https://schedulelua.github.io/ScheduleLua-Docs/guide/getting-started.html",
                     "embed": True
                 }
             }

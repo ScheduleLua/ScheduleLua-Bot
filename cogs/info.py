@@ -25,22 +25,22 @@ class Info(commands.Cog):
             fields=[
                 {
                     "name": "Documentation",
-                    "value": "[ScheduleLua Docs](https://ifbars.github.io/ScheduleLua-Docs/)",
+                    "value": "[ScheduleLua Docs](https://schedulelua.github.io/ScheduleLua-Docs/)",
                     "inline": True
                 },
                 {
                     "name": "GitHub Repository",
-                    "value": "[GitHub](https://github.com/IFBars/ScheduleLua)",
+                    "value": "[GitHub](https://github.com/ScheduleLua/ScheduleLua-Framework)",
                     "inline": True
                 },
                 {
                     "name": "Report Bugs",
-                    "value": "[GitHub Issues](https://github.com/IFBars/ScheduleLua/issues)",
+                    "value": "[GitHub Issues](https://github.com/ScheduleLua/ScheduleLua-Framework/issues)",
                     "inline": True
                 }
             ],
             footer="ScheduleLua - Enhancing Schedule 1 with Lua scripting",
-            thumbnail="https://github.com/IFBars/ScheduleLua/raw/main/logo.png"
+            thumbnail="https://github.com/ScheduleLua/ScheduleLua-Framework/raw/main/logo.png"
         )
         
         await interaction.response.send_message(embed=embed)
@@ -48,7 +48,7 @@ class Info(commands.Cog):
     @app_commands.command(name="docs", description="Get links to ScheduleLua documentation")
     async def docs(self, interaction: discord.Interaction):
         """Provides links to ScheduleLua documentation"""
-        base_url = "https://ifbars.github.io/ScheduleLua-Docs"
+        base_url = "https://schedulelua.github.io/ScheduleLua-Docs"
         
         embed = create_embed(
             title="ScheduleLua Documentation",
@@ -90,12 +90,12 @@ class Info(commands.Cog):
             fields=[
                 {
                     "name": "Report Bugs",
-                    "value": "1. Go to [GitHub Issues](https://github.com/IFBars/ScheduleLua/issues)\n2. Click 'New Issue'\n3. Select 'Bug Report'\n4. Fill in the template with details about the bug\n5. Submit the issue",
+                    "value": "1. Go to [GitHub Issues](https://github.com/ScheduleLua/ScheduleLua-Framework/issues)\n2. Click 'New Issue'\n3. Select 'Bug Report'\n4. Fill in the template with details about the bug\n5. Submit the issue",
                     "inline": False
                 },
                 {
                     "name": "Request Features",
-                    "value": "1. Go to [GitHub Issues](https://github.com/IFBars/ScheduleLua/issues)\n2. Click 'New Issue'\n3. Select 'Feature Request'\n4. Describe the feature you'd like to see\n5. Submit the issue",
+                    "value": "1. Go to [GitHub Issues](https://github.com/ScheduleLua/ScheduleLua-Framework/issues)\n2. Click 'New Issue'\n3. Select 'Feature Request'\n4. Describe the feature you'd like to see\n5. Submit the issue",
                     "inline": False
                 },
                 {

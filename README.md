@@ -21,7 +21,7 @@ A Discord bot for the ScheduleLua community. This bot provides information, mode
 
 1. Clone this repository:
    ```
-   git clone https://github.com/ifBars/ScheduleLua-Bot.git
+   git clone https://github.com/ScheduleLua/ScheduleLua-Bot.git
    cd schedulelua-bot
    ```
 

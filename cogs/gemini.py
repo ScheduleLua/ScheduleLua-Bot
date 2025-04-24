@@ -43,8 +43,8 @@ class GeminiChatbot(commands.Cog):
         os.makedirs(self.docs_folder, exist_ok=True)
         
         # Get documentation URLs from environment variables
-        self.readme_url = os.getenv('SCHEDULELUA_README_URL', 'https://raw.githubusercontent.com/ifBars/ScheduleLua/refs/heads/main/README.md')
-        self.docs_base_url = os.getenv('SCHEDULELUA_DOCS_URL', 'https://ifbars.github.io/ScheduleLua-Docs/')
+        self.readme_url = os.getenv('SCHEDULELUA_README_URL', 'https://raw.githubusercontent.com/ScheduleLua/ScheduleLua-Framework/refs/heads/main/README.md')
+        self.docs_base_url = os.getenv('SCHEDULELUA_DOCS_URL', 'https://schedulelua.github.io/ScheduleLua-Docs/')
         
         # Set up the system instruction for ScheduleLua context
         self.system_instruction = """
@@ -58,7 +58,7 @@ class GeminiChatbot(commands.Cog):
         4. Be friendly and supportive to users of all experience levels
         5. If you're unsure about something, acknowledge it and suggest checking the official documentation
         
-        ScheduleLua documentation: https://ifbars.github.io/ScheduleLua-Docs/
+        ScheduleLua documentation: https://schedulelua.github.io/ScheduleLua-Docs/
         
         IMPORTANT TOPICS YOU KNOW ABOUT:
         - Mod system architecture and concepts
@@ -83,7 +83,7 @@ class GeminiChatbot(commands.Cog):
         The mod system handles dependencies, load order, and proper initialization.
         
         IMPORTANT: When referencing documentation, ALWAYS link to the public GitHub Pages site 
-        (https://ifbars.github.io/ScheduleLua-Docs/) rather than mentioning any local markdown files 
+        (https://schedulelua.github.io/ScheduleLua-Docs/) rather than mentioning any local markdown files 
         or internal file structures. Users should always be directed to the official online documentation.
         """
         
@@ -152,7 +152,7 @@ class GeminiChatbot(commands.Cog):
             # Add context to the prompt if available
             prompt = question
             if context:
-                prompt = f"{context}\nUser question: {question}\nPlease answer based on the provided documentation. IMPORTANT: Do NOT mention these context documents or any local files in your response - only reference the public documentation website (https://ifbars.github.io/ScheduleLua-Docs/):"
+                prompt = f"{context}\nUser question: {question}\nPlease answer based on the provided documentation. IMPORTANT: Do NOT mention these context documents or any local files in your response - only reference the public documentation website (https://schedulelua.github.io/ScheduleLua-Docs/):"
             
             # Update system instruction to require brief responses
             compact_system_instruction = self.system_instruction + """
@@ -161,7 +161,7 @@ class GeminiChatbot(commands.Cog):
             If you need to include code examples, keep them short and focused on the essential parts.
             
             CRITICAL: Never mention or reference any local markdown (.md) files in your responses.
-            Always direct users to the official documentation website at https://ifbars.github.io/ScheduleLua-Docs/
+            Always direct users to the official documentation website at https://schedulelua.github.io/ScheduleLua-Docs/
             instead of referencing internal files like 'installation.md' or any file paths.
             """
             
